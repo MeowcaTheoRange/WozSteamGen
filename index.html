@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>HexFlagGen</title>
+    <title>WozSteamGem</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="https://cdn.abtmtr.link/cdn/css/normal.css" />
     <style>
@@ -12,10 +12,10 @@
       :root {
         --base-scale: 16px;
 
-        --background-color: hsl(0, 0%, 15%);
-        --color: hsl(0, 0%, 85%);
-        --accent-color: #808080;
-        --accent-color-fg: hsl(0, 0%, 95%);
+        --background-color: hsl(232, 95%, 15%);
+        --color: hsl(232, 95%, 85%);
+        --accent-color: #3a55fa;
+        --accent-color-fg: hsl(232, 95%, 95%);
         --font-family: "Lexend Deca";
         --document-width: 40em;
       }
@@ -27,7 +27,7 @@
   </head>
   <body>
     <section>
-      <h1>SteamTheWoz</h1>
+      <h1>WozSteamGem</h1>
       <label for="size_width"
         ><input
           type="number"
@@ -73,8 +73,7 @@
         value="0"
       />
       <label for="scott_index">Scott Index</label>
-      <small
-        >(
+      <small>
         <label for="stash" class="checkbox">
           <input
             type="checkbox"
@@ -82,8 +81,8 @@
             onchange="scott_index.disabled = event.target.checked"
           />
           <span class="checkbox">O</span>
-          Scott's Stash </label
-        >)</small
+          Scott's Stash
+        </label></small
       ><br />
       <select id="align">
         <option value="left">Left</option>
